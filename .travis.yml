@@ -1,0 +1,11 @@
+addons:
+  apt:
+    sources: [ ubuntu-toolchain-r-test ]
+    packages: [ libstdc++-4.9-dev ]
+language: node_js
+node_js: 8
+git:
+  depth: 2
+cache: yarn
+before_install: npm install -g yarn
+script: yarn run test
