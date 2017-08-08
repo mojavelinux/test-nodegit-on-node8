@@ -1,0 +1,16 @@
+{
+  "name": "test-nodegit-on-node8",
+  "version": "1.0.0",
+  "description": "A sample project to test if nodegit can be installed and used on Node 8.",
+  "author": {
+    "name": "Dan Allen"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "dependencies": {
+    "nodegit": "^0.18.0"
+  },
+  "scripts": {
+    "test": "node index.js"
+  }
+}
